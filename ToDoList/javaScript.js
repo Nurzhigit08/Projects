@@ -12,11 +12,11 @@ button.addEventListener('click', function (event) {
         item.innerHTML = `
             <span id='task'>
                 <span id='item'>
-                    <input type='checkbox' class='check'/> <!-- Changed id to class -->
+                    <input type='checkbox' class='check'/>
                     <label>${text}</label>
                 </span>
                 <span>
-                    <button class='btn-del'>del</button> <!-- Changed id to class -->
+                    <button class='btn-del'>del</button>
                 </span>
             </span>`
         
