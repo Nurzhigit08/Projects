@@ -20,11 +20,17 @@ const fruitList = [
   },
 ];
 
-fruitList.map((todo) => {
-  let item = document.createElement("div");
-  item.innerHTML = `<div>${todo.name}</div>`;
-  list.appendChild(item);
+fruitList.map(item => {
+  let newItem = document.createElement('div');
+  newItem.innerHTML = item.name;
 });
+
+
+// fruitList.map((todo) => {
+//   let item = document.createElement("div");
+//   item.innerHTML = `<div>${todo.name}</div>`;
+//   list.appendChild(item);
+// });
 
 button.addEventListener("click", function (event) {
   event.preventDefault();

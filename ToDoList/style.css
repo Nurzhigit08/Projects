@@ -1,3 +1,7 @@
+body{
+    transition: 0.5s;
+}
+
 #item{
     border: 1px;
     border-radius: 5px;
@@ -75,4 +79,10 @@ table{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.dark{
+    background-color: rgb(50, 50, 50);
+    color: white;
+    
 }
