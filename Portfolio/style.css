@@ -46,3 +46,7 @@ body {
 .home-about-text-h1 {
     font-size: 25px;
 }
+
+a {
+    list-style: none;
+}
